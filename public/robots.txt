@@ -1,3 +1,10 @@
+# Global rule for all crawlers
 User-agent: *
 Allow: /
-Sitemap: https://yourwebsite.com/sitemap.xml
+
+# Host directive (optional but useful)
+Host: https://seo-setup.vercel.app
+
+# Sitemap location
+Sitemap: https://seo-setup.vercel.app/sitemap.xml
+
